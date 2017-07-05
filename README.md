@@ -1,2 +1,3 @@
-# NerdPlayer2
-Player com remix de jogos
+# NerdPlayer
+Um player online para ouvir música de jogos
+Creditos de conteúdo ao site: https://www.khinsider.com
