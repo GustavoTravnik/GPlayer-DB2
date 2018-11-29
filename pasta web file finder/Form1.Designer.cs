@@ -58,6 +58,7 @@
             this.lstSiteOSTS1.Name = "lstSiteOSTS1";
             this.lstSiteOSTS1.ScrollAlwaysVisible = true;
             this.lstSiteOSTS1.Size = new System.Drawing.Size(412, 249);
+            this.lstSiteOSTS1.Sorted = true;
             this.lstSiteOSTS1.TabIndex = 0;
             this.lstSiteOSTS1.SelectedIndexChanged += new System.EventHandler(this.lstSiteOSTS_SelectedIndexChanged);
             this.lstSiteOSTS1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
@@ -127,7 +128,7 @@
             // 
             this.axWindowsMediaPlayer1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(0, 328);
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(0, 329);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(892, 46);
@@ -203,7 +204,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(892, 374);
+            this.ClientSize = new System.Drawing.Size(892, 375);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.txtF2);

@@ -32,6 +32,7 @@ namespace pasta_web_file_finder
         {
             InitializeComponent();
             Control.CheckForIllegalCrossThreadCalls = false;
+           
             txtF1.ReadOnly = true;
             CreateLoadOn(lstSiteOSTS1);
             Hide();
@@ -79,7 +80,7 @@ namespace pasta_web_file_finder
             else
             {
                 //https://ocremix.org/remix/OCR03523
-                for (int i = 3501; i <= 4000; i++)
+                for (int i = 0; i <= 4000; i++)
                 {
                     String sulfix = i.ToString("00000");
                     FillListBySimbol(sulfix);
